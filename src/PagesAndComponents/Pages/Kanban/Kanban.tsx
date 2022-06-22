@@ -1,4 +1,4 @@
-import KanbanSection from "./Components/KanbanSection";
+import KanbanSection from "./Components/KanbanSection/KanbanSection";
 
 export default function Kanban() {
   return (

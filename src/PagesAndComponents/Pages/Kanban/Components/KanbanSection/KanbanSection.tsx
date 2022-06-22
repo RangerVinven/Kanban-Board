@@ -1,4 +1,4 @@
-import KanbanItem from "./KanbanItem";
+import KanbanItem from "../KanbanItem";
 
 export default function KanbanSection() {
 
