@@ -1,7 +1,10 @@
+import KanbanItem from "./KanbanItem";
+
 export default function KanbanSection() {
   return (
-    <div className="h-fit w-52 bg-white">
-		<h1>Todo</h1>
+    <div className="h-3/4 w-64 p-1 bg-white rounded-md">
+		<h1 className="text-xl">Todo</h1>
+		<KanbanItem />
     </div>
   )
 }
