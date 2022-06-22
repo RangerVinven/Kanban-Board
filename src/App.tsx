@@ -1,5 +1,5 @@
 import './index.css'
-import Kanban from './PagesAndComponents/Pages/Kanban'
+import Kanban from './PagesAndComponents/Pages/Kanban/Kanban'
 
 function App() {
 
