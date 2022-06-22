@@ -1,10 +1,11 @@
 import './index.css'
+import Kanban from './PagesAndComponents/Pages/Kanban'
 
 function App() {
 
 	return (
-		<div>
-			<h1>Hello</h1>
+		<div className="h-screen w-screen">
+			<Kanban />
 		</div>
 	)
 }
