@@ -1,12 +1,12 @@
 interface Props {
-	text: string
+	data: string
 }
 
 export default function KanbanItem(props: Props) {
   return (
     <div className="w-full">
         <hr />
-        <h3 className="my-1">{props.text}</h3>
+        <h3 className="my-1">{props.data}</h3>
     </div>
   )
 }
